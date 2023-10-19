@@ -11,7 +11,7 @@ Expected Output:-
 We ArE tHe WoRlD
 
 
-QUESTION2:-
+QUESTION 2:-
 Programming challenge description:
 Given a string comprising just of the characters (,),(,), [,] determine if it is well-formed or not.
 Input:
@@ -22,3 +22,52 @@ Test Input:- ()
 Expected Output:- True
 Test Input:- ([) ]
 Expected Output:- False
+
+
+QUESTION 3:-
+In a company, an employee's rating point (ERP) is calculated as the sum of the rating points given by the employee's manager and HR.
+The employee rating grade (ERG) is calculated according to the ERP ranges given below:
+
+ERP.            ERG
+
+30-50            D
+
+51-60.           C
+
+61-80.           B
+
+81-100.          A
+
+Write an algorithm to find the ERG character for a given employee's ERP.
+Input
+The input consists of an integer eRP representing the calculated employee rating point.
+Output
+Print a character representing
+the ERG for a given employee's ERP.
+Constraints
+30<=.  eRP <= 100
+Example
+Input :- 64
+Output:- B
+
+
+QUESTION 4:- 
+A company provides network encryption for secure data transfer.
+The data string is encrypted prior to transmission and gets decrypted at the receiving end. But due to some technical error,
+the encrypted data is lost and the received string is different from the original string by 1 character.
+Arnold, a network administrator, is tasked with finding the character that got lost in the network so that the bug does not harm other data that is 
+being transferred through the network.
+Write an algorithm to help Arnold find the character that was missing at the receiving end but present at the sending end.
+
+Input
+The first line of the input consists of a string-string Sent, representing the string that was sent through the network.
+The next line consists of a string stringRec, representing the string that was received at the receiving end of the network.
+
+Output
+Print a character representing the Character that was lost in the network during transmission
+Note:-the input strings stringSent and stringRec consists of lowercase and uppercase English alphabets
+
+INPUT:- abcdfjgerj
+abcdfjger 
+
+OUTPUT:-j
