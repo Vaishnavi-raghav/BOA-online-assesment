@@ -9,3 +9,16 @@ Test Input:-
 We are the world
 Expected Output:-
 We ArE tHe WoRlD
+
+
+QUESTION2:-
+Programming challenge description:
+Given a string comprising just of the characters (,),(,), [,] determine if it is well-formed or not.
+Input:
+Your program should read lines from standard input. Each line contains a string comprising of the characters mentioned above. There is no whitespace between characters.
+Output:
+Print out True if the string is well-formed, False otherwise.
+Test Input:- ()
+Expected Output:- True
+Test Input:- ([) ]
+Expected Output:- False
